@@ -1,4 +1,4 @@
-# 📂 DQC-DAM: Cuaderno Integral de Prácticas, Lógica y Aprendizaje en DAM
+# DQC-DAM: Cuaderno Integral de Prácticas, Lógica y Aprendizaje en DAM
 
 ¡Bienvenidos de forma oficial a mi repositorio de **DQC-DAM**! Este espacio digital no es un simple contenedor de archivos estático ni un repositorio corporativo: es mi **cuaderno de bitácora personal y público**, un reflejo transparente y fiel de todo el camino, el esfuerzo, los tropiezos y los logros que voy experimentando a diario mientras me abro paso cursando **1º de Desarrollo de Aplicaciones Multiplataforma (DAM)**.
 
