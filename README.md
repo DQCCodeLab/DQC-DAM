@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 ¿Cuál es el propósito profundo y la filosofía de este espacio?
+## ¿Cuál es el propósito profundo y la filosofía de este espacio?
 
 El objetivo de este repositorio va mucho más largo que la simple entrega de tareas o de acumular líneas de código de una sola asignatura. Cada carpeta, archivo y script responde a una serie de pilares fundamentales sobre los que construyo mi aprendizaje en **todo el ciclo formativo**:
 
@@ -15,7 +15,7 @@ El objetivo de este repositorio va mucho más largo que la simple entrega de tar
 
 ---
 
-## ⚠️ Disclaimer / Aviso Importante y Transparencia
+## Disclaimer / Aviso Importante y Transparencia
 
 Es fundamental aclarar desde el primer momento cuál es mi posición frente a este material:
 
@@ -26,7 +26,7 @@ Es fundamental aclarar desde el primer momento cuál es mi posición frente a es
 
 ---
 
-## 📄 Licencia y Derechos de Uso
+##  Licencia y Derechos de Uso
 
 Este trabajo está protegido bajo la licencia **Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)**.
 
