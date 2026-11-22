@@ -1,0 +1,19 @@
+#cursosPython {
+    
+    background-color: rgb(97, 97, 230);
+    padding-left: 15PX;
+    padding-bottom: 15px;
+}
+
+#cursosJava {
+    
+    background-color: rgb(232, 115, 238);
+    padding-left: 15PX;
+    padding-bottom: 15px;
+}
+
+#cursosC {
+    background-color: rgb(238, 115, 127);
+    padding-left: 15PX;
+    padding-bottom: 15px;
+}

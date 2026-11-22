@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(../font/Lato/Lato-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ECECEC;
+    color: #222222;
+    font-family: 'Lato-Light', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /*
+    Se pone margin y padding 0px porque hay navegadores que por defecto añaden
+    un pequeño margin a la pagina y por si acaso tambien ponemos padding
+    */
+}
+.contenedorEtiquetaPaginas{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 32px;
+}
+
+.contenedorEtiquetaPaginas h2, h3{
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedorEtiquetaPaginas p{
+    margin: 5px;
+    padding: 8px;
+}
+.contenedorGenericoSection {
+    border-radius: 12px;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}

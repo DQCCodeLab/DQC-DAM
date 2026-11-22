@@ -1,0 +1,30 @@
+#PSystemLevelingApp{
+    background-color: aquamarine;
+}
+#PSystemLevelingWeb{
+    background-color: rgb(62, 111, 245);
+}
+
+#PSystemMarkupLenguage {
+    background-color: rgb(105, 255, 85);
+}
+.ProyectosEstado {
+    border-radius: 12px;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
+#proyectosActivos{
+    background-color: rgb(241, 58, 232);
+}
+
+#proyectosPlanteamiento{
+    background-color: rgb(119, 87, 224);
+}
+
+#proyectosFinalizados{
+    background-color: rgb(169, 39, 240);
+}
