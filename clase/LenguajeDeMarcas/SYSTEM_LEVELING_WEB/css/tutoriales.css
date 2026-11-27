@@ -1,19 +1,102 @@
+/* Contenedor principal */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Títulos principales de sección (TUTORIALES DE PROGRAMACION / PAGINAS RECOMENDADAS) */
+main h1 {
+    color: #38BDF8;
+    font-size: 1.9rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(56, 189, 248, 0.25);
+}
+
+/* Bloques por lenguaje de programación */
+#cursosPython,
+#cursosJava,
+#cursosC {
+    background-color: #1E293B;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 12px;
+    padding: 20px 24px 25px 24px;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Borde lateral distintivo para cada lenguaje */
 #cursosPython {
-    
-    background-color: rgb(97, 97, 230);
-    padding-left: 15PX;
-    padding-bottom: 15px;
+    border-left: 5px solid #38BDF8; /* Azul cian (Python) */
 }
 
 #cursosJava {
-    
-    background-color: rgb(232, 115, 238);
-    padding-left: 15PX;
-    padding-bottom: 15px;
+    border-left: 5px solid #818CF8; /* Índigo/violeta (Java) */
 }
 
 #cursosC {
-    background-color: rgb(238, 115, 127);
-    padding-left: 15PX;
-    padding-bottom: 15px;
+    border-left: 5px solid #34D399; /* Verde esmeralda suave (C) */
+}
+
+/* Nombre del lenguaje (Python, JAVA, C) */
+#cursosPython h2,
+#cursosJava h2,
+#cursosC h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#cursosPython h2 { color: #38BDF8; }
+#cursosJava h2 { color: #818CF8; }
+#cursosC h2 { color: #34D399; }
+
+/* Sub-bloques de cada creador (By MoureDev, midudev, DQC CodeLab, ProgramadorX) */
+#cursosPython h3,
+#cursosJava h3,
+#cursosC h3 {
+    background-color: #26334D;
+    color: #F1F5F9;
+    font-size: 1.1rem;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    border-left: 3px solid rgba(241, 245, 249, 0.3);
+}
+
+/* Ajuste para vídeos incrustados (iframes de YouTube) o enlaces dentro de cada bloque */
+#cursosPython iframe,
+#cursosJava iframe,
+#cursosC iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    margin: 8px 8px 16px 0;
+}
+
+/* Enlaces a tutoriales o páginas recomendadas */
+main a {
+    color: #38BDF8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+main a:hover {
+    color: #818CF8;
+    text-decoration: underline;
+}
+
+/* Ajuste del icono del footer */
+footer img {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 8px;
 }

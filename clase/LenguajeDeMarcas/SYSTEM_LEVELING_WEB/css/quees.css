@@ -1,0 +1,65 @@
+/* Contenedor principal de la página */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Tarjetas o secciones de contenido (aplica tanto a <section> como a tus clases genéricas) */
+main section,
+main article,
+.contenedorGenericoSection {
+    background-color: #1E293B;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 14px;
+    padding: 28px 32px;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+main section:hover,
+main article:hover,
+.contenedorGenericoSection:hover {
+    border-color: rgba(56, 189, 248, 0.5);
+    transform: translateY(-2px);
+}
+
+/* Título principal: ¿QUÉ ES SYSTEM LEVELING? */
+main h1 {
+    color: #38BDF8;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(56, 189, 248, 0.3);
+}
+
+/* Subtítulo: ¿CUÁL ES SU MISIÓN? */
+main h2 {
+    color: #818CF8;
+    font-size: 1.45rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 14px;
+    padding-left: 12px;
+    border-left: 4px solid #818CF8;
+}
+
+/* Párrafos explicativos */
+main p {
+    color: #E2E8F0;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Si tienes ambos bloques dentro de un mismo contenedor, separa el segundo título */
+main p + h2 {
+    margin-top: 32px;
+}
+
+

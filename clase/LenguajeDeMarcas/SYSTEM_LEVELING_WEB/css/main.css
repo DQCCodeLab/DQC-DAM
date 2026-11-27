@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #ECECEC;
-    color: #222222;
+    background-color: #0F172A;
+    color: #F1F5F9;
     font-family: 'Lato-Light', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -16,28 +16,96 @@ body {
     un pequeño margin a la pagina y por si acaso tambien ponemos padding
     */
 }
+
+/*
+Menu de navegacion abajo aqui
+*/
+
+header {
+    background-color: #131C31;
+    border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+header img{
+    height: 36px;
+    width: auto;
+    transition: transform 0.2s ease;
+}
+
+header img:hover {
+    transform: scale(1.08);
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: #F1F5F9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+nav a:hover{
+    background-color: rgba(56, 189, 248, 0.12);
+    color: #38BDF8;
+}
+
+/*
+Contenedores
+*/
+
 .contenedorEtiquetaPaginas{
-    border-radius: 25px;
+    background-color: #26334D;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 32px;
+    margin: 24px 0;
+    padding: 20px;
 }
 
-.contenedorEtiquetaPaginas h2, h3{
-    margin: 5px;
+.contenedorEtiquetaPaginas h2, .contenedorEtiquetaPaginas h3 {
+    color: #38BDF8;
+    margin: 5px 0;
     padding: 5px;
 }
 
-.contenedorEtiquetaPaginas p{
-    margin: 5px;
+.contenedorEtiquetaPaginas p {
+    color: #94A3B8;
+    margin: 5px 0;
     padding: 8px;
 }
+
 .contenedorGenericoSection {
+    background-color: #1E293B;
     border-radius: 12px;
-    padding-top: 2px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px;
+    padding: 16px 24px;
+    margin: 24px auto;
+    max-width: 1100px;
+}
+
+footer {
+    background-color: #131C31;
+    border-top: 1px solid rgba(56, 189, 248, 0.2);
+    color: #94A3B8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
