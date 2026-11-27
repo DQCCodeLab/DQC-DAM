@@ -1,11 +1,10 @@
-/* Contenedor principal de la página */
 main {
     max-width: 1000px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-/* Tarjetas o secciones de contenido */
+/* Tarjetas  de contenido */
 main section,
 main article,
 .contenedorGenericoSection {
@@ -25,7 +24,6 @@ main article:hover,
     transform: translateY(-2px);
 }
 
-/* Título principal: ¿QUÉ ES SYSTEM LEVELING? */
 main h1 {
     color: #38BDF8;
     font-size: 2rem;
@@ -37,7 +35,6 @@ main h1 {
     border-bottom: 2px solid rgba(56, 189, 248, 0.3);
 }
 
-/* Subtítulo: ¿CUÁL ES SU MISIÓN? */
 main h2 {
     color: #818CF8;
     font-size: 1.45rem;
@@ -49,7 +46,6 @@ main h2 {
     border-left: 4px solid #818CF8;
 }
 
-/* Párrafos explicativos */
 main p {
     color: #E2E8F0;
     font-size: 1.08rem;
@@ -57,7 +53,9 @@ main p {
     margin-bottom: 0;
 }
 
-/* Separa el subtítulo del bloque anterior */
+/* 
+Separa el subtítulo del bloque anterior 
+*/
 main article + h2 {
     margin-top: 32px;
 }

@@ -1,11 +1,9 @@
-/* Contenedor principal */
 main {
     max-width: 1100px;
     margin: 30px auto;
     padding: 0 20px;
 }
 
-/* Títulos principales de sección (TUTORIALES DE PROGRAMACION / PAGINAS RECOMENDADAS) */
 main h1 {
     color: #38BDF8;
     font-size: 1.9rem;
@@ -17,7 +15,9 @@ main h1 {
     border-bottom: 2px solid rgba(56, 189, 248, 0.25);
 }
 
-/* Bloques por lenguaje de programación */
+/* 
+Bloques por lenguaje de programación 
+*/
 #cursosPython,
 #cursosJava,
 #cursosC {
@@ -29,20 +29,21 @@ main h1 {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-/* Borde lateral distintivo para cada lenguaje */
+/* 
+Borde lateral distintivo para cada lenguaje
+ */
 #cursosPython {
-    border-left: 5px solid #38BDF8; /* Azul cian (Python) */
+    border-left: 5px solid #38BDF8; 
 }
 
 #cursosJava {
-    border-left: 5px solid #818CF8; /* Índigo/violeta (Java) */
+    border-left: 5px solid #818CF8; 
 }
 
 #cursosC {
-    border-left: 5px solid #34D399; /* Verde esmeralda suave (C) */
+    border-left: 5px solid #34D399; 
 }
 
-/* Nombre del lenguaje (Python, JAVA, C) */
 #cursosPython h2,
 #cursosJava h2,
 #cursosC h2 {
@@ -56,7 +57,6 @@ main h1 {
 #cursosJava h2 { color: #818CF8; }
 #cursosC h2 { color: #34D399; }
 
-/* Sub-bloques de cada creador (By MoureDev, midudev, DQC CodeLab, ProgramadorX) */
 #cursosPython h3,
 #cursosJava h3,
 #cursosC h3 {
@@ -70,7 +70,6 @@ main h1 {
     border-left: 3px solid rgba(241, 245, 249, 0.3);
 }
 
-/* Enlaces a tutoriales o páginas recomendadas */
 main a {
     color: #38BDF8;
     text-decoration: none;
@@ -83,7 +82,6 @@ main a:hover {
     text-decoration: underline;
 }
 
-/* Vídeos incrustados (iframes de YouTube y vídeo local) adaptables */
 #cursosPython iframe,
 #cursosJava iframe,
 #cursosC iframe,

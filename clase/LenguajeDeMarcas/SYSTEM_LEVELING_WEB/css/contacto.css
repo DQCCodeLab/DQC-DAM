@@ -1,11 +1,9 @@
-/* Contenedor principal de la página de Contacto */
 main {
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-/* Título principal: CUESTIONARIOS PARA EL USUARIO/A */
 main h1 {
     color: #38BDF8;
     font-size: 2rem;
@@ -16,7 +14,9 @@ main h1 {
     border-bottom: 2px solid rgba(56, 189, 248, 0.25);
 }
 
-/* Aviso de responsabilidad (el párrafo en negrita/cursiva bajo el H1) */
+/* 
+Aviso de responsabilidad 
+*/
 main section > p,
 .aviso-responsabilidad {
     background-color: rgba(129, 140, 248, 0.1);
@@ -29,7 +29,6 @@ main section > p,
     letter-spacing: 0.5px;
 }
 
-/* Tarjetas de cada formulario (Sugerencias y Contacto) */
 main section,
 main form,
 .contenedorGenericoSection {
@@ -41,7 +40,6 @@ main form,
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
 
-/* Evita doble caja si tienes <form> dentro de <section> */
 main section form {
     background-color: transparent;
     border: none;
@@ -50,7 +48,6 @@ main section form {
     margin: 0;
 }
 
-/* Títulos de cada cuestionario (H2) */
 main h2 {
     color: #38BDF8;
     font-size: 1.4rem;
@@ -62,7 +59,6 @@ main h2 {
     border-left: 4px solid #38BDF8;
 }
 
-/* Agrupaciones internas (fieldset / legend) si las usas en tu HTML */
 fieldset {
     border: 1px solid rgba(56, 189, 248, 0.2);
     border-radius: 10px;
@@ -78,7 +74,6 @@ legend {
     font-size: 1rem;
 }
 
-/* Etiquetas de texto (Labels) */
 label {
     display: inline-block;
     color: #E2E8F0;
@@ -88,10 +83,9 @@ label {
     font-size: 0.98rem;
 }
 
-/* Casillas de selección (Checkboxes y Radios) */
 input[type="checkbox"],
 input[type="radio"] {
-    accent-color: #38BDF8; /* Tiñe el check de azul cian al marcarlo */
+    accent-color: #38BDF8; 
     width: 16px;
     height: 16px;
     margin-right: 8px;
@@ -99,7 +93,6 @@ input[type="radio"] {
     cursor: pointer;
 }
 
-/* Labels pegados a checkboxes/radios */
 input[type="checkbox"] + label,
 input[type="radio"] + label {
     margin-top: 4px;
@@ -110,7 +103,6 @@ input[type="radio"] + label {
     cursor: pointer;
 }
 
-/* Campos de texto, correo y áreas de mensaje */
 input[type="text"],
 input[type="email"],
 select,
@@ -133,7 +125,9 @@ textarea {
     resize: vertical;
 }
 
-/* Efecto al hacer clic dentro de un campo para escribir */
+/*
+ Efecto al hacer clic dentro de un campo para escribir 
+*/
 input[type="text"]:focus,
 input[type="email"]:focus,
 select:focus,
@@ -143,7 +137,6 @@ textarea:focus {
     box-shadow: 0 0 8px rgba(56, 189, 248, 0.35);
 }
 
-/* Botones de envío (Enviar sugerencia / Enviar mensaje de contacto) */
 button,
 input[type="submit"] {
     background-color: #38BDF8;
@@ -168,7 +161,9 @@ input[type="submit"]:hover {
     box-shadow: 0 4px 14px rgba(129, 140, 248, 0.4);
 }
 
-/* Separadores entre formularios */
+/* 
+Separadores entre formularios
+ */
 hr {
     border: none;
     border-top: 1px solid rgba(56, 189, 248, 0.3);

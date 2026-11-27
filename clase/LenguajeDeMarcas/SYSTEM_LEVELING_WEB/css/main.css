@@ -103,7 +103,9 @@ Contenedores
     margin: 24px auto;
     max-width: 1100px;
 }
-
+/*
+Pie de pagina
+*/
 footer {
     background-color: #131C31;
     border-top: 1px solid rgba(56, 189, 248, 0.2);
@@ -123,13 +125,17 @@ footer img {
     margin: 10px auto 0;
 }
 
-/* Imágenes y vídeos adaptables */
+/* 
+Imágenes y vídeos adaptables 
+*/
 img, iframe, video {
     max-width: 100%;
     height: auto;
 }
 
-/* Pseudoelemento: línea animada bajo los enlaces del menú */
+/* 
+Pseudoelemento: línea animada bajo los enlaces del menú 
+*/
 nav a::after {
     content: "";
     position: absolute;
@@ -147,7 +153,6 @@ nav a:focus-visible::after {
     transform: scaleX(1);
 }
 
-/* Tablet */
 @media (max-width: 768px) {
     header {
         padding: 8px 10px;
@@ -170,7 +175,6 @@ nav a:focus-visible::after {
     }
 }
 
-/* Móvil */
 @media (max-width: 480px) {
     body main {
         padding: 0 10px;
