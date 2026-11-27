@@ -52,6 +52,7 @@ main p {
     margin-bottom: 0;
 }
 
+/* Respuestas ocultas que aparecen al pasar el ratón */
 .faq-item p {
     max-height: 0;
     overflow: hidden;
@@ -65,4 +66,20 @@ main p {
     opacity: 1;
     margin-top: 12px;
     background-color: #26334D;
+}
+
+/* Grid: las preguntas se reparten en columnas y se reorganizan solas */
+#contenedorFAQ {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+#contenedorFAQ h1 {
+    grid-column: 1 / -1;
+}
+
+#contenedorFAQ .faq-item {
+    margin-bottom: 0;
 }

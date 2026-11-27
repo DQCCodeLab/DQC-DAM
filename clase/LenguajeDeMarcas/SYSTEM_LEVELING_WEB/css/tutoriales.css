@@ -70,16 +70,6 @@ main h1 {
     border-left: 3px solid rgba(241, 245, 249, 0.3);
 }
 
-/* Ajuste para vídeos incrustados (iframes de YouTube) o enlaces dentro de cada bloque */
-#cursosPython iframe,
-#cursosJava iframe,
-#cursosC iframe {
-    max-width: 100%;
-    border-radius: 10px;
-    border: 1px solid rgba(56, 189, 248, 0.25);
-    margin: 8px 8px 16px 0;
-}
-
 /* Enlaces a tutoriales o páginas recomendadas */
 main a {
     color: #38BDF8;
@@ -93,10 +83,16 @@ main a:hover {
     text-decoration: underline;
 }
 
-/* Ajuste del icono del footer */
-footer img {
-    height: 20px;
-    width: auto;
-    vertical-align: middle;
-    margin-left: 8px;
+/* Vídeos incrustados (iframes de YouTube y vídeo local) adaptables */
+#cursosPython iframe,
+#cursosJava iframe,
+#cursosC iframe,
+#cursosJava video {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    margin: 8px 0 16px 0;
 }

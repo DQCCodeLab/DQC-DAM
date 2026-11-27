@@ -1,0 +1,176 @@
+/* Contenedor principal de la página de Contacto */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Título principal: CUESTIONARIOS PARA EL USUARIO/A */
+main h1 {
+    color: #38BDF8;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(56, 189, 248, 0.25);
+}
+
+/* Aviso de responsabilidad (el párrafo en negrita/cursiva bajo el H1) */
+main section > p,
+.aviso-responsabilidad {
+    background-color: rgba(129, 140, 248, 0.1);
+    border-left: 4px solid #818CF8;
+    border-radius: 0 10px 10px 0;
+    color: #CBD5E1;
+    padding: 14px 20px;
+    margin-bottom: 32px;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+/* Tarjetas de cada formulario (Sugerencias y Contacto) */
+main section,
+main form,
+.contenedorGenericoSection {
+    background-color: #1E293B;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 14px;
+    padding: 28px 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Evita doble caja si tienes <form> dentro de <section> */
+main section form {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Títulos de cada cuestionario (H2) */
+main h2 {
+    color: #38BDF8;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 18px;
+    padding-left: 12px;
+    border-left: 4px solid #38BDF8;
+}
+
+/* Agrupaciones internas (fieldset / legend) si las usas en tu HTML */
+fieldset {
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    background-color: #26334D;
+}
+
+legend {
+    color: #818CF8;
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+/* Etiquetas de texto (Labels) */
+label {
+    display: inline-block;
+    color: #E2E8F0;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 0.98rem;
+}
+
+/* Casillas de selección (Checkboxes y Radios) */
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: #38BDF8; /* Tiñe el check de azul cian al marcarlo */
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Labels pegados a checkboxes/radios */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-right: 18px;
+    font-weight: normal;
+    color: #CBD5E1;
+    cursor: pointer;
+}
+
+/* Campos de texto, correo y áreas de mensaje */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0F172A;
+    color: #F1F5F9;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Efecto al hacer clic dentro de un campo para escribir */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #38BDF8;
+    box-shadow: 0 0 8px rgba(56, 189, 248, 0.35);
+}
+
+/* Botones de envío (Enviar sugerencia / Enviar mensaje de contacto) */
+button,
+input[type="submit"] {
+    background-color: #38BDF8;
+    color: #0F172A;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 26px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #818CF8;
+    color: #F1F5F9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(129, 140, 248, 0.4);
+}
+
+/* Separadores entre formularios */
+hr {
+    border: none;
+    border-top: 1px solid rgba(56, 189, 248, 0.3);
+    margin: 28px 0;
+}

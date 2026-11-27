@@ -5,7 +5,7 @@ main {
     padding: 0 20px;
 }
 
-/* Tarjetas o secciones de contenido (aplica tanto a <section> como a tus clases genéricas) */
+/* Tarjetas o secciones de contenido */
 main section,
 main article,
 .contenedorGenericoSection {
@@ -57,9 +57,7 @@ main p {
     margin-bottom: 0;
 }
 
-/* Si tienes ambos bloques dentro de un mismo contenedor, separa el segundo título */
-main p + h2 {
+/* Separa el subtítulo del bloque anterior */
+main article + h2 {
     margin-top: 32px;
 }
-
-
